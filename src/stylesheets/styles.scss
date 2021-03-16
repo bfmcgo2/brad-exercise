@@ -1,0 +1,86 @@
+// Load CSS Reset from NPM
+@import "~normalize.css";
+
+$font-family: "Helvetica";
+
+.card-container {
+	width:90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+// Card styling
+
+.card {
+	width: 300px;
+	margin: 5px;
+	border-radius: 3px;
+	background: transparent;
+	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	cursor: pointer;
+	transition: .3s;
+
+	&__img {
+		align-self: center;
+		width: 100%;
+		height: 150px;
+		overflow: hidden;
+		pointer-events: none;
+
+		&--bgimg {
+			width:100%;
+			height:100%;
+			background-size: cover;
+			background-position: center center;
+			transform: scale(1);
+			transition: .3s;		
+		}
+	}
+
+	&__description {
+		width: 90%;
+		margin: 0 auto;
+		pointer-events: none;
+
+		h2,p{
+			font-family: $font-family;
+		}
+	}
+
+	.x-out {
+		position: absolute;
+		top: 3px;
+		right: 3px;
+		color: black;
+		z-index: 2;
+		font-family: $font-family;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 20px;
+		height: 20px;
+		background-color: rgba(255,255,255, 0.8);
+		border-radius: 50%;
+		cursor: pointer;
+		transition: .3s;
+	}
+// On Hover
+
+	&:hover {
+		box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .5);
+
+		.card__img--bgimg {
+			transform: scale(1.2);	
+		}
+		.x-out {
+			background-color: rgba(255,255,255, 1);
+		}
+	}
+
+}

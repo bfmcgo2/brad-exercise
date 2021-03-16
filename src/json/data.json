@@ -1,0 +1,40 @@
+{
+  "cards": [
+    {
+      "id": "1262720399954",
+      "author": "Jon W.",
+      "description": "Awesome food! We ate outside on their patio; great customer service, and the food was outstanding. We had the pork pot stickers and spicy chicken ramen - both were fabulous!!!",
+      "img": "https://picsum.photos/200"
+    },
+    {
+      "id": "68719581267",
+      "author": "Lindy P",
+      "description": "We ordered the Curry and the Tokyo Bowl. Both were amazing ! Really recommend this place. I also tried the Lettuce wraps but they were more like lettuce tacos. Not the best. But the bowls were fire ! Also the hot spiked tea was great too. The staff was extremely welcoming and helpful. The ambiance was great. Truly a local hidden gem!",
+      "img": "https://picsum.photos/201"
+    },
+    {
+      "id": "1211180799664",
+      "author": "Teri G.",
+      "description": "Great spot. Had good covid protocols, spaced out, and great fish and chips! Called in a reservation. Also, had outdoor seating with fire pits and space heater but opted for inside.",
+      "img": "https://picsum.photos/202"
+    },
+    {
+      "id": "1262720399954",
+      "author": "Susie D.",
+      "description": "Excellent wine list, cocktails, service , food.  Pricy but it is a ski town.  A little too crowded during a pandemic.  However if you have your shots, go for it.  Definitely worth a visit.",
+      "img": "https://picsum.photos/203"
+    },
+    {
+      "id": "369367278187",
+      "author": "Audrey A.",
+      "description": "Tayler is the mist accommodating hostess. I messed up my opentable and she fit us in. And Larry! A treat.",
+      "img": "https://picsum.photos/204"
+    },
+    {
+      "id": "489626320107",
+      "author": "Jason S.",
+      "description": "Amazing Menu and awesome service! Loved the Oysters and the Primrose cocktail! Try the chips and dip, you won't be disappointed",
+      "img": "https://picsum.photos/205"
+    }
+  ]
+}
